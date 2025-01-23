@@ -43,7 +43,6 @@ nav a:hover{
     color: white;
 }
 
-
 h1{ 
     padding-top: 100px;
     padding-bottom: 30px;
@@ -66,6 +65,27 @@ h1{
 
 @media screen and (min-width: 1280px) {
     /*ordinador*/
+
+    h1{ 
+        padding-top: 100px;
+        padding-bottom: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align: center;
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        background-color: goldenrod;
+        transform: translate(-50%, -50%);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 110px;
+        border-radius: 45px 55px 0  0;
+        width: 690px;
+        z-index: 11;
+        color: rgb(40, 40, 40);
+    }
+
     .d1 {
         width: 850px;
         height: 10px;
@@ -129,6 +149,12 @@ h1{
     .p3 {
         background-color: grey;
     }
+
+    .rectangle{
+        width: 700px;
+        height: 200px;
+        background-color: brown;
+    }
     
     .p2 ul{
         width: 960px;
@@ -136,7 +162,6 @@ h1{
         padding-top: 170px;
         
     }
-    
     
     .p2 li {
         width: 250px;
