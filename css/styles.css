@@ -152,11 +152,39 @@ h1{
 
     .rectangle{
         width: 810px;
-        height: 100px;
-        background-color: ghostwhite;
-        margin-top: 135px;
-        margin-left: 255px;
+        height: 170px;
+        background-color: ghoswhite;
+        display: block;
+        top: 50%;
+        margin-top: 148px;
+        left: 50%;
+        margin-left: -410px;
         border-radius: 20px;
+        position: absolute;
+        letter-spacing: 1px;
+    }
+
+    .t1{
+        position: absolute;
+        margin-top: -40px;
+        top: 50%;
+        left: 50%;
+        font-size: 3.5rem;
+        font-weight: 700;
+        cursor: not-allowed;
+        z-index: 40;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin-top: -70px;
+        margin-left: -200px;
+    }
+
+    .t1::before {
+ 
+    }
+
+    .t1:hover::before {
+
     }
     
     .p2 ul{
