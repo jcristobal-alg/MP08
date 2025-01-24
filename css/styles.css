@@ -6,7 +6,6 @@
 html,body{
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
 }
 
 nav{
@@ -80,8 +79,8 @@ h1{
         background-color: goldenrod;
         transform: translate(-50%, -50%);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 110px;
-        border-radius: 45px 55px 0  0;
+        font-size: 6.875rem;
+        border-radius: 45px 45px 30px 30px;
         width: 690px;
         z-index: 11;
         color: rgb(40, 40, 40);
@@ -152,9 +151,12 @@ h1{
     }
 
     .rectangle{
-        width: 700px;
-        height: 200px;
-        background-color: brown;
+        width: 810px;
+        height: 100px;
+        background-color: ghostwhite;
+        margin-top: 135px;
+        margin-left: 255px;
+        border-radius: 20px;
     }
     
     .p2 ul{
@@ -376,7 +378,7 @@ h1{
         background-color: goldenrod;
         transform: translate(-50%, -50%);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 79px;
+        font-size: 74.938rem;
         border-radius: 45px 55px 0  0;
         width: 500px;
         z-index: 11;
