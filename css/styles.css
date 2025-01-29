@@ -143,25 +143,12 @@ h1{
     }
     
     .p2 {
-        background-color: ghostwhite;
+        background-color: rgb(201, 201, 201);
         width: 100%;
     }
     .p3 {
-        background-color: grey;
-    }
-
-    .rectangle{
-        width: 810px;
-        height: 170px;
-        background-color: ghoswhite;
-        display: block;
-        top: 50%;
-        margin-top: 148px;
-        left: 50%;
-        margin-left: -410px;
-        border-radius: 20px;
-        position: absolute;
-        letter-spacing: 1px;
+        background-color: rgb(40, 40, 40);
+        height: 50%;
     }
 
     .t1{
@@ -179,13 +166,6 @@ h1{
         margin-left: -200px;
     }
 
-    .t1::before {
- 
-    }
-
-    .t1:hover::before {
-
-    }
     
     .p2 ul{
         width: 960px;
@@ -218,7 +198,7 @@ h1{
         scale: 100%;
         transition: 1s;
         animation: 1s rebotar linear 3;
-    }   
+    } 
     
     @keyframes rebotar {
         0%{
@@ -553,5 +533,47 @@ h1{
 .pagina{
     position: relative;
     height: 1050px;
+}
+
+.p3{
+    height: 190px;
+    background-color: rgb(40, 40, 40);
+}
+
+.p3 img{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
+    
+}
+
+.xsocials{
+    background-color: rd;
+    width: 420px;
+    margin-left: 40%;
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+}
+
+.l1 img:hover {
+    background-image: url(../img/logos2-01.png);
+
+}
+
+.retoc {
+    width: 100%;
+    height: 0.5px;
+    background-color: ghostwhite;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.p2{
+    background-color: rgb(219, 216, 216);
 }
 
