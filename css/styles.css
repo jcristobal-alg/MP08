@@ -447,6 +447,7 @@ h1{
         transition: 1s;
         animation: 1s rebotar linear 3;
    }
+
     @keyframes rebotar {
         0%{
             transform: translateY(0px);
@@ -474,16 +475,39 @@ h1{
         width: 630px;
    }
     .p3 {
-        background-color: grey;
+        background-color: rgb(40, 40, 40);
    }
+
+    .xsocials{
+        background-color: ed;
+        width: 420px;
+        margin-left: 40%;
+        position: absolute;
+        overflow: hidden;
+        display: inline-block;
+        float: right;
+        scale: 80%;
+        left: -130px;
+    }
+
+    .retoc {
+        width: 100%;
+        height: 0.5px;
+        background-color: ghostwhite;
+        display: inline-block;
+        margin-top: 100px;
+    }
 }
+
 .pagina{
     position: relative;
     height: 1050px;
 }
+
 .p3{
     height: 190px;
     background-color: rgb(40, 40, 40);
+    width: 630px;
 }
 
     .p3 img{
