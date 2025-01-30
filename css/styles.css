@@ -2,12 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
 html,body{
     height: 100%;
     width: 100%;
 }
-
 nav{
     position: fixed;
     height: 70px;
@@ -18,7 +16,6 @@ nav{
     background-color: rgb(40, 40, 40);
     overflow: hidden;
 }
-
 nav img{
     height:52px;
     width: 75px;
@@ -27,23 +24,19 @@ nav img{
     margin-right: 20px;
     overflow: hidden;
 }
-
 nav li{
     display: inline-block;
     margin: 25px 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.25rem;
 }
-
 nav a{
     color: goldenrod;
 }
-
 nav a:hover{
     color: white;
 }
-
-h1{ 
+h1{
     padding-top: 100px;
     padding-bottom: 30px;
     padding-left: 60px;
@@ -57,16 +50,14 @@ h1{
     transform: translate(-50%, -50%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 110px;
-    border-radius: 45px 55px 0  0;
+    border-radius: 45px 55px 0 0;
     width: 690px;
     z-index: 11;
     color: rgb(40, 40, 40);
 }
-
 @media screen and (min-width: 1280px) {
-    /*ordinador*/
-
-    h1{ 
+   /*ordinador*/
+    h1{
         padding-top: 100px;
         padding-bottom: 30px;
         padding-left: 60px;
@@ -84,8 +75,7 @@ h1{
         width: 690px;
         z-index: 11;
         color: rgb(40, 40, 40);
-    }
-
+   }
     .d1 {
         width: 850px;
         height: 10px;
@@ -98,9 +88,7 @@ h1{
         left: 50%;
         margin-top: -110px;
         margin-left: -430px;
-    }
-    
-    
+   }
     .d2{
         width: 300px;
         height: 295px;
@@ -112,8 +100,7 @@ h1{
         margin-top: -322px;
         background-image: url(../img/foto2.png);
         background-size: 100%;
-    }
-    
+   }
     .d3{
         width: 300px;
         height: 250px;
@@ -125,32 +112,29 @@ h1{
         margin-left: -310px;
         background-image: url(../img/foto1.png);
         background-size: 100%;
-    }
-    
-    .correccio {
-        height: 530px; 
-        background-color: ghostwhite;
-    }
-    
-    .d3:hover{
-        background-image: url(../img/foto4.png);
-    }
+   } 
+        .d3:hover{
+                background-image: url(../img/foto4.png);
+        }
 
+    .correccio {
+        height: 530px;
+        background-color: ghostwhite;
+   }
+   
     .p1 {
         background-color: rgb(40, 40, 40);
         width: 100%;
         text-align: center;
-    }
-    
+   }
     .p2 {
         background-color: rgb(201, 201, 201);
         width: 100%;
-    }
+   }
     .p3 {
         background-color: rgb(40, 40, 40);
         height: 50%;
-    }
-
+   }
     .t1{
         position: absolute;
         margin-top: -40px;
@@ -164,16 +148,12 @@ h1{
         color: white;
         margin-top: -70px;
         margin-left: -200px;
-    }
-
-    
+   }
     .p2 ul{
         width: 960px;
         margin: 0 auto;
         padding-top: 170px;
-        
-    }
-    
+   }
     .p2 li {
         width: 250px;
         height: 150px;
@@ -189,82 +169,73 @@ h1{
         line-height: 200px;
         border-radius: 30px;
         float: left;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    } 
-    
-    .p2 li:hover {
-        background: rgb(40, 40, 40);
-        color: ghostwhite;
-        scale: 100%;
-        transition: 1s;
-        animation: 1s rebotar linear 3;
-    } 
-    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+   }
+        .p2 li:hover {
+            background: rgb(40, 40, 40);
+            color: ghostwhite;
+            scale: 100%;
+            transition: 1s;
+            animation: 1s rebotar linear 3;
+        }
+
     @keyframes rebotar {
         0%{
             transform: translateY(0px);
-        }
-    
+       }
         25%{
             transform: translateY(10px);
-        }
-    
+       }
         50%{
             transform: translateY(0px);
-        }
-    
+       }
         75%{
             transform: translateY(10px);
-        }
-    
+       }
         100%{
             transform: translateY(0px);
-        }
-    }
+       }
+   }
 }
 
 @media screen and (min-width: 471px) and (max-width:1279px) {
-    /*tablet*/  
-        .d1 {
-            width: 850px;
-            height: 10px;
-            position: absolute;
-            rotate: ;
-            z-index: 11;
-            background-color: blue;
-            clear: both;
-            top: 50%;
-            left: 50%;
-            margin-top: -110px;
-            margin-left: -430px;
-        }
-        
-        
-        .d2{
-            width: 300px;
-            height: 295px;
-            background-color: rd;
-            position: absolute;
-            top: 50%;
-            left: 51.5%;
-            right: 110px;
-            margin-top: -322px;
-            background-image: url(../img/foto2.png);
-            background-size: 100%;
-        }
-        
-        .d22 {
-            width: 110.36px ;
-            height: 137.14px;
-            background-color: rd;
-            position: absolute;
-            top: 34.5%;
-            left: 66.5%;
-            z-index: 12;
-            background-image: url(../img/foto3.png);
-            background-size: 100%;
-        }
-        
+   /*tablet*/
+    .d1 {
+        width: 850px;
+        height: 10px;
+        position: absolute;
+        rotate: ;
+        z-index: 11;
+        background-color: blue;
+        clear: both;
+        top: 50%;
+        left: 50%;
+        margin-top: -110px;
+        margin-left: -430px;
+   }
+    .d2{
+        width: 300px;
+        height: 295px;
+        background-color: rd;
+        position: absolute;
+        top: 50%;
+        left: 51.5%;
+        right: 110px;
+        margin-top: -322px;
+        background-image: url(../img/foto2.png);
+        background-size: 100%;
+   }
+    .d22 {
+        width: 110.36px ;
+        height: 137.14px;
+        background-color: rd;
+        position: absolute;
+        top: 34.5%;
+        left: 66.5%;
+        z-index: 12;
+        background-image: url(../img/foto3.png);
+        background-size: 100%;
+   }
         .d22:hover {
             width: 110.36px ;
             height: 137.14px;
@@ -276,103 +247,91 @@ h1{
             background-image: url(../img/cursor.png);
             background-size: 100%;
         }
-        
-        .d3{
-            width: 300px;
-            height: 250px;
-            background-color: blue;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin-top: -325px;
-            margin-left: -310px;
-            background-image: url(../img/foto1.png);
-            background-size: 100%;
-        }
-        
-        .correccio {
-            height: 530px; 
-            background-color: ghostwhite;
-        }
-        
+
+    .d3{
+        width: 300px;
+        height: 250px;
+        background-color: blue;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -325px;
+        margin-left: -310px;
+        background-image: url(../img/foto1.png);
+        background-size: 100%;
+   } 
         .d3:hover{
-            background-image: url(../img/foto4.png);
+                background-image: url(../img/foto4.png);
         }
 
-        .p1 {
-            background-color: rgb(40, 40, 40);
-            width: 100%;
-            text-align: center;
-        }
-        
-        .p2 {
-            background-color: ghostwhite;
-            width: 100%;
-        }
-        .p3 {
-            background-color: grey;
-        }
-        
-        .p2 ul{
-            width: 960px;
-            margin: 0 auto;
-            padding-top: 170px;
-            
-        }
-        
-        
-        .p2 li {
-            width: 250px;
-            height: 150px;
-            background: goldenrod;
-            display: inline-block;
-            margin-left: 55px;
-            margin-bottom: 40px;
-            padding-bottom: 40px;
-            top: 80px;
-            text-align: center;
-            font-size: 20px;
-            color: rgb(40, 40, 40);
-            line-height: 200px;
-            border-radius: 30px;
-            float: left;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-        } 
-        
+    .correccio {
+        height: 530px;
+        background-color: ghostwhite;
+   }
+   
+    .p1 {
+        background-color: rgb(40, 40, 40);
+        width: 100%;
+        text-align: center;
+   }
+    .p2 {
+        background-color: ghostwhite;
+        width: 100%;
+   }
+    .p3 {
+        background-color: grey;
+   }
+    .p2 ul{
+        width: 960px;
+        margin: 0 auto;
+        padding-top: 170px;
+   }
+    .p2 li {
+        width: 250px;
+        height: 150px;
+        background: goldenrod;
+        display: inline-block;
+        margin-left: 55px;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+        top: 80px;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(40, 40, 40);
+        line-height: 200px;
+        border-radius: 30px;
+        float: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+   }
         .p2 li:hover {
             background: rgb(40, 40, 40);
             color: ghostwhite;
             scale: 100%;
             transition: 1s;
             animation: 1s rebotar linear 3;
-        }   
-        
-        @keyframes rebotar {
-            0%{
-                transform: translateY(0px);
-            }
-        
-            25%{
-                transform: translateY(10px);
-            }
-        
-            50%{
-                transform: translateY(0px);
-            }
-        
-            75%{
-                transform: translateY(10px);
-            }
-        
-            100%{
-                transform: translateY(0px);
-            }
         }
-}
 
+    @keyframes rebotar {
+        0%{
+            transform: translateY(0px);
+       }
+        25%{
+            transform: translateY(10px);
+       }
+        50%{
+            transform: translateY(0px);
+       }
+        75%{
+            transform: translateY(10px);
+       }
+        100%{
+            transform: translateY(0px);
+       }
+   }
+}
 @media screen and (max-width: 480px) {
-    /*movil*/
-    h1{ 
+   /*movil*/
+    h1{
         padding-top: 100px;
         padding-bottom: 30px;
         padding-left: 60px;
@@ -387,13 +346,12 @@ h1{
         transform: translate(-50%, -50%);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 4.900rem;
-        border-radius: 45px 55px 0  0;
+        border-radius: 45px 55px 0 0;
         width: 500px;
         z-index: 11;
         color: rgb(40, 40, 40);
         scale: 75%;
-    }
-
+   }
     nav img{
         height:46px;
         width: 65px;
@@ -401,8 +359,7 @@ h1{
         margin-top: 14px;
         margin-right: 15px;
         overflow: hidden;
-    }
-
+   }
     .d1 {
         width: 850px;
         height: 8px;
@@ -415,9 +372,7 @@ h1{
         left: 20%;
         margin-top: -110px;
         margin-left: -430px;
-    }
-    
-    
+   }
     .d2{
         width: 300px;
         height: 295px;
@@ -430,8 +385,7 @@ h1{
         background-image: url(../img/foto2.png);
         background-size: 100%;
         scale: 65%;
-    }
-    
+   }
     .d22 {
         width: 110.36px ;
         height: 137.14px;
@@ -443,21 +397,20 @@ h1{
         background-image: url(../img/foto3.png);
         background-size: 100%;
         scale: 65%;
-    }
-    
-    .d22:hover {
-        width: 110.36px ;
-        height: 137.14px;
-        background-color: rd;
-        position: absolute;
-        top: 38%;
-        left: 65%;
-        z-index: 12;
-        background-image: url(../img/cursor.png);
-        background-size: 100%;
-        scale: 65%;
-    }
-    
+   }
+        .d22:hover {
+            width: 110.36px ;
+            height: 137.14px;
+            background-color: rd;
+            position: absolute;
+            top: 38%;
+            left: 65%;
+            z-index: 12;
+            background-image: url(../img/cursor.png);
+            background-size: 100%;
+            scale: 65%;
+        }
+
     .d3{
         width: 300px;
         height: 250px;
@@ -470,94 +423,77 @@ h1{
         background-image: url(../img/foto1.png);
         background-size: 100%;
         scale: 65%;
-        
-    }
-    
-    .correccio {
-        height: 530px; 
-        background-color: ghostwhite;
-    }
-    
-    .d3:hover{
-        background-image: url(../img/foto4.png);
-    }
+   }  
 
+        .d3:hover{
+                background-image: url(../img/foto4.png);
+        }
+
+    .correccio {
+        height: 530px;
+        background-color: ghostwhite;
+   }
+  
     .p2 ul{
         width: 960px;
-        scale: 65%;
+        scale: 50%;
         margin-left: -160px;
         margin-top: 110px;
-       
-        
-    }
-    
-    
+   }
     .p2 li:hover {
         background: rgb(40, 40, 40);
         color: ghostwhite;
         scale: 100%;
         transition: 1s;
         animation: 1s rebotar linear 3;
-    }   
-    
+   }
     @keyframes rebotar {
         0%{
             transform: translateY(0px);
-        }
-    
+       }
         25%{
             transform: translateY(10px);
-        }
-    
+       }
         50%{
             transform: translateY(0px);
-        }
-    
+       }
         75%{
             transform: translateY(10px);
-        }
-    
+       }
         100%{
             transform: translateY(0px);
-        }
-    }
-
+       }
+   }
     .p1 {
         background-color: rgb(40, 40, 40);
-        width: 630px; 
-        
-    }
-    
+        width: 630px;
+   }
     .p2 {
         padding-top: 100px;
         background-color: ghostwhite;
         width: 630px;
-    }
+   }
     .p3 {
         background-color: grey;
-    }
-
+   }
 }
-
 .pagina{
     position: relative;
     height: 1050px;
 }
-
 .p3{
     height: 190px;
     background-color: rgb(40, 40, 40);
 }
 
-.p3 img{
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 20px;
-    float: left;
-    
-}
+    .p3 img{
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 20px;
+        float: left;
+    }
 
 .xsocials{
     background-color: rd;
@@ -569,11 +505,6 @@ h1{
     float: right;
 }
 
-.l1 img:hover {
-    background-image: url(../img/logos2-01.png);
-
-}
-
 .retoc {
     width: 100%;
     height: 0.5px;
@@ -581,8 +512,6 @@ h1{
     display: inline-block;
     margin-top: 100px;
 }
-
 .p2{
     background-color: rgb(219, 216, 216);
 }
-
