@@ -179,6 +179,12 @@ h1{
             animation: 1s rebotar linear 3;
         }
 
+        .p3 {
+            height: 190px;
+            background-color: rgb(40, 40, 40);
+            clear: both;
+        }
+
     @keyframes rebotar {
         0%{
             transform: translateY(0px);
@@ -309,6 +315,12 @@ h1{
             scale: 100%;
             transition: 1s;
             animation: 1s rebotar linear 3;
+        }
+
+        .p3{
+            height: 190px;
+            background-color: rgb(40, 40, 40);
+          
         }
 
     @keyframes rebotar {
@@ -507,7 +519,7 @@ h1{
 .p3{
     height: 190px;
     background-color: rgb(40, 40, 40);
-    width: 630px;
+   
 }
 
     .p3 img{
