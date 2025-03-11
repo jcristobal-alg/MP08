@@ -447,16 +447,17 @@ h1{
 
 
    .p2 a{
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     background-color: goldenrod;
     text-decoration: none;
     float: left;
     margin: 20px;
     list-style: none;
     text-align: center;
-    font-family: helvetica;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
+    border-radius: 15%;
    }
 
 
@@ -466,6 +467,7 @@ h1{
         scale: 100%;
         transition: 1s;
         animation: 1s rebotar linear 3;
+        color: black;
    }
 
     @keyframes rebotar {
@@ -560,7 +562,7 @@ h1{
     background-color: rgb(219, 216, 216);
 }
 
-@media screen and (min-width: 380px) and (max-width:480px){
+@media screen and (min-width: 380px) and (max-width:470px){
     /*movil*/
      h1{
          padding-top: 100px;
