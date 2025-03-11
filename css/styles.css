@@ -560,7 +560,7 @@ h1{
     background-color: rgb(219, 216, 216);
 }
 
-@media screen and (min-width: 391px) and (max-width:480px){
+@media screen and (min-width: 390px) and (max-width:480px){
     /*movil*/
      h1{
          padding-top: 100px;
@@ -737,7 +737,10 @@ h1{
  
  .p3{
      height: 190px;
+     width: auto;
      background-color: rgb(40, 40, 40);
+     margin-bottom: 0;
+   
     
  }
  
