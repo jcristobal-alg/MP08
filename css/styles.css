@@ -519,6 +519,13 @@ h1{
         display: inline-block;
         margin-top: 100px;
     }
+
+    .p3{
+       
+        background-color: rgb(40, 40, 40);
+        align-items: center;
+        padding-left: 240px;
+     }
 }
 
 .pagina{
@@ -730,6 +737,13 @@ h1{
          display: inline-block;
          margin-top: 100px;
      }
+
+     .p3{
+       
+        background-color: rgb(40, 40, 40);
+        align-items: center;
+        padding-left: 240px;
+     }
  }
  
  .pagina{
@@ -776,3 +790,7 @@ h1{
      background-color: rgb(219, 216, 216);
  }
  
+ .p3{
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+ }
